@@ -4,7 +4,7 @@ This repository contains the analytical foundation supporting the strategic visi
 
 
  ⚒️ Tools used
- > Snowflake Colud Platform
- > MS excel
- > Miro
- > MS Powerpoint
+* Snowflake Colud Platform
+* MS excel
+* Miro
+* MS Powerpoint

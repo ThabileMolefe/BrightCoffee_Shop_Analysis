@@ -44,8 +44,6 @@ SELECT MAX(transaction_time) AS Closing_time
         END AS Day_Classification,
         MONTHNAME(transaction_date) AS month_name
  FROM CAFE_TRANSACTIONS;
-
-
 ---------------------------------------------------------------------------------------------------------------------------------
 --Large file for exporting to excel
 SELECT transaction_date,
@@ -71,6 +69,5 @@ SELECT transaction_date,
         transaction_qty,
         transaction_qty*unit_price AS Revenue       
  FROM CAFE_TRANSACTIONS;
-
 ---------------------------------------------------------------------------------------------------------------------------------
          
